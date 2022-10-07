@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/intro-component-with-signing-up-form-using-flexbox-q8t9XlGcAy](https://your-solution-url.com)
+- Live Site URL: [https://awsmpuff.github.io/intro-component-with-signing-up-form/](https://your-live-site-url.com)
 
 ## My process
 
