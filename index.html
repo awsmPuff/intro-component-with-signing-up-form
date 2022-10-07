@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    .attribution { font-size: 11px; text-align: center; position: absolute; left: 0; right: 0; bottom: 10px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+    <article>
+      <h1>Learn to code by watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.
+      </p>
+    </article>
+    <div class="log-in">
+      <div class="price"><span>Try it free 7 days</span>&nbsp;then $20/mo. thereafter</div>
+      <form class="form" action="/">
+        <section>
+          <input type="text" name="" id="first-name" placeholder="First Name">
+          <img class="error-first-name" src="./images/icon-error.svg" alt="error">
+          <i class="empty-first-name">First Name cannot be empty</i>
+        </section>
+        
+        <section>
+          <input type="text" name="" id="last-name" placeholder="Last Name">
+          <img class="error-last-name" src="./images/icon-error.svg" alt="error">
+          <i class="empty-last-name">Last Name cannot be empty</i>
+        </section>
+        
+        <section>
+          <input type="email" name="" id="email-address" placeholder="Email Address">
+          <img class="error-email" src="./images/icon-error.svg" alt="error">
+          <i class="empty-email">Email Address cannot be empty</i>
+          <i class="wrong-email">Looks like this is not an email</i>
+        </section>
+        
+        <section>
+          <input type="password" name="" id="password" placeholder="Password">
+          <img class="error-password" src="./images/icon-error.svg" alt="error">
+          <i class="empty-password">Password cannot be empty</i>
+        </section>
+        
+        <button class="submit" type="submit">Claim your free trial</button>
+        <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+      </form>
+      <div class="success">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+        <p>Thank you for signing up.</p>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Laurenxx</a>.
+    </p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
